@@ -348,3 +348,9 @@ Reserved for the Boeing 737
 
 - Return `{ sessionSecureID }` from `H.init` for consumption by Remix SDK
 - Persist `sessionSecureID` to `sessionStorage`
+
+## 7.4.1
+
+### Patch Changes
+
+- Support passing `recordCrossOriginIframe: false` in a cross-origin iframe to record a session for the iframe contents.

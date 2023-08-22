@@ -348,3 +348,9 @@ Reserved for the Boeing 737
 
 - Return `{ sessionSecureID }` from `H.init` for consumption by Remix SDK
 - Persist `sessionSecureID` to `sessionStorage`
+
+## 7.4.2
+
+### Patch Changes
+
+- Add support for a new `storageMode` setting to avoid using `window.localStorage`.
